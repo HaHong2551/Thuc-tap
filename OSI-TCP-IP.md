@@ -40,9 +40,9 @@ Mô hình TCP/IP có các chức năng tương đương với mô hình OSI như
 4. Application Layer (Data)
 - Giống mô hình OSI
 # OSI and TCP/IP Model Comparison
-![Mô hình so sánh](http://https://2.bp.blogspot.com/--LdXEFHRLz0/UzQeMLNUyzI/AAAAAAAAADE/YAQAXBPEVqg/s1600/OSI-TCP-IP2.jpg)
+![Mô hình so sánh](https://2.bp.blogspot.com/--LdXEFHRLz0/UzQeMLNUyzI/AAAAAAAAADE/YAQAXBPEVqg/s1600/OSI-TCP-IP2.jpg)
 Nguồn tham khảo:
-[OSI-TCP/IP](http://https://hocmangcoban.blogspot.com/2014/04/mo-hinh-osi-va-tcpip.html)
+[OSI-TCP/IP](https://hocmangcoban.blogspot.com/2014/04/mo-hinh-osi-va-tcpip.html)
 Chú ý:
 Lớp vật lý: Hub là một bộ khuyếch đại tín hiệu và không có cơ chế kiểm tra trạng thái kênh
 Lớp Mac: Bridge (cho phép kết nối nhiều mạng LAN với nhau, cho phép phân mảnh một mạng LAN lớn thành nhiều segment hay nhiều vùng quảng bá nhỏ), Switch
