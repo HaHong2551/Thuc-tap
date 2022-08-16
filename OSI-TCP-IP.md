@@ -2,19 +2,24 @@
 # OSI Model (Open Systems Interconnection)
 Nhằm tạo ra chuẩn giao tiếp chung khi tích hợp nhiều nhà cùng cấp. Mô hình OSI bao gồm 7 tầng. Mỗi tầng đều có đặc tính là chỉ sử dụng chức năng của tầng dưới nó và chức năng của mình.
 *7 tầng  của OSI có 3 tầng dưới được thực hiện trên kênh truyền( định nghĩa thiết bị phần cứng cho kết nối); 4 tầng trên thực hiện trên các host( giao tiếp người dùng)*
+
+![Mô hình OSI](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/800px-OSI_Model_v1.svg.png)
+
 1. Physical(Bits)
  - Biến đổi dòng bit logic thành tín hiệu vật lý phù hợp với đường truyền vật lý (ở bên phát) và ngược lại ( ở ben thu): điều chế/ giải điều chế, biến đổi và khôi phục tín hiệu.
    - Thành phần vật lý: NIC, cáp đồng, cáp quang,... 
    - Encoding(HDB3, NRZ, Manchester)
    - Signaling(0,1)  
 2. Data Link(Frames)
+![Đóng gói và mở gói dữ liệu](https://vnpro.vn/upload/user/images/Tin%20T%E1%BB%A9c/1(2).jpg)
+
  -Phát hiện và sửa lối khi truyền dữ liệu giữa các thực thể trong mạng(switch, router, thiết bị đầu cuối)
  -Nhận dữ liệu từ lớp Netwwork, đóng gói dữ liệu lớp Network vào các khung( frame) phù hợp với mạng vật lý
 3. Network (Packets)
  -Định tuyến trên một mạng gồm nhiều nút trung gian giữa nguồn và đích
  -Đánh địa chỉ lớp mạng(IPv4 or IPv6)
 4. Transport (Segments)
- -Chia nhỏ các gói tin có kích thước lớn khi gửi và tập hợp lại khi nhận
+ -Chia nhỏ các gói tin có kích thước lớn khi gửi và tập hợp lại khi nhận giúp cho việc truyền dữ liệu trên đường truyền dễ dàng và tránh các trễ.
  -Đảm bảo truyền dữ liệu tin cậy giữa 2 thiết bị đầu cuối
 5. Session (Data)
  - Quản lý các kết nối được thiết lập trên cùng một máy tính từ một hay nhiều ứng dụng khác nhau.
@@ -25,6 +30,7 @@ Nhằm tạo ra chuẩn giao tiếp chung khi tích hợp nhiều nhà cùng c�
 Cung cấp các giao diện lập trình cho ứng dụng của người sử dụng
 # TCP/IP 
 Mô hình TCP/IP có các chức năng tương đương với mô hình OSI nhưng chỉ có 4 tầng
+![Mô hình TCP/IP](https://wiki.matbao.net/wp-content/uploads/2021/04/mo-hinh-tcp-ip-3.jpg)
 1. Network Access(Frame)
  - Physical: Biến đổi dòng bít logic thành tín hiệu vật lý phù hợp với đường truyền vật lý
  - MAC( Medium Access Control):điều khiển NIC và phần cứng chịu trách nhiệm gửi và nhận dữ liệu.
